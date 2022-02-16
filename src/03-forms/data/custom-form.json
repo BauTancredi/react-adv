@@ -1,0 +1,47 @@
+[
+  {
+    "type": "input",
+    "name": "fistName",
+    "placeholder": "Bautista",
+    "label": "First Name",
+    "value": "",
+    "validations": [{ "type": "required" }, { "type": "minLength", "value": 5 }]
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "placeholder": "Tancredi",
+    "label": "Last Name",
+    "value": "",
+    "validations": [{ "type": "required" }, { "type": "minLength", "value": 5 }]
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "placeholder": "bautista@google.com",
+    "label": "Email",
+    "value": "",
+    "validations": [{ "type": "required" }, { "type": "email" }]
+  },
+  {
+    "type": "select",
+    "name": "favoriteGame",
+    "label": "Favorite Game",
+    "value": "",
+    "options": [
+      {
+        "id": 1,
+        "label": "Super Smash"
+      },
+      {
+        "id": 2,
+        "label": "Pokemon"
+      },
+      {
+        "id": 3,
+        "label": "League of Legends"
+      }
+    ],
+    "validations": [{ "type": "required" }]
+  }
+]
